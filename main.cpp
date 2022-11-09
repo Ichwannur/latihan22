@@ -155,7 +155,7 @@ void drawFrame()
 
     glPushMatrix();
 
-    glColor3f(1.0f,0.0f,1.0f); //ubah gir depannya
+    glColor3f(0.90f,0.5f,0.2f); //ubah gir depannya
 
 
     glPushMatrix();
@@ -243,30 +243,30 @@ void drawFrame()
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(1.0f,.0f,1.0f); //tabung senter
+    glColor3f(1.0f,.0f,0.0f); //tabung senter TES
     glTranslatef(-3.2,-2.1f,0.3f);
     XCylinder(ROD_RADIUS+0.1f,1.5f);
     glPopMatrix();
     glPushMatrix();
-    glColor3f(0.5f,0.5f,0.5f);
+    glColor3f(1.0f,0.0f,0.0f);
     glTranslatef(-3.2,-2.1f,0.3f);
     glRotatef(120.0,0.0f,0.0f,1.0f);
     XCylinder(ROD_RADIUS+0.1f,0.5f);
     glPopMatrix();
     glPushMatrix();
-    glColor3f(1.0f,0.0f,1.0f);
+    glColor3f(1.0f,0.0f,0.0f);
     glTranslatef(-3.2,-2.1f,-0.3f);
     XCylinder(ROD_RADIUS+0.1f,1.5f);
     glPopMatrix();
     glPushMatrix();
-    glColor3f(1.0f,0.0f,1.0f);
+    glColor3f(1.0f,0.0f,0.0f);
     glTranslatef(-3.2,-2.1f,-0.3f);
     glRotatef(120.0,0.0f,0.0f,1.0f);
     XCylinder(ROD_RADIUS+0.1f,0.5f);
     glPopMatrix();
 
     glPushMatrix();
-    glColor3f(1.0f,0.0f,1.0f); //ubah tabung
+    glColor3f(1.0f,0.0f,0.0f); //ubah tabung
     glTranslatef(0.4,-0.8f,0.2f);
     glRotatef(LEFT_ANGLE,0.0f,0.0f,1.0f);
     XCylinder(GAS_TANK,1.0f);
